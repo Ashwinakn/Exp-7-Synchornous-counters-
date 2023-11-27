@@ -46,43 +46,63 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
+1.Create a new project in QuartusII software. 
+2.Name the project as uc for upcounter and dc for down counter. 
+3.Create a new verilog hdl file in the project file.
+4.Name the module as dc and uc for down counter and up counter.
+5.Within the module declare input and output variables. 
+6.Create a loop using if-else with condition parameter as reset value. 
+7.End the loop. 
+8.End the module.
 
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ASHWINA K N
+RegisterNumber:  23001424
+
+##CODE:
+
+##UP COUNTER:
+
+![UPCOUNTER CODE](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/717b2ae2-6008-4f23-b993-d539e44d0cb9)
+
+##DOWN COUNTER:
+
+![DOWNCOUNTER CODE](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/1df1e43b-ae31-4402-bdbe-24453ce22a03)
 
 
+## RTL LOGIC UP COUNTER AND DOWN COUNTER:
+
+##UP COUNTER:
+
+![UPCOUNTER RTL](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/14d2f8ec-985b-431f-8db9-8cd3bcc7e941)
+
+##DOWN COUNTER:
+
+![DOWNCOUNTER RTL](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/2210e7b3-5bc8-4d8c-8ac2-5316049bc893)
 
 
+## TIMING DIGRAMS FOR COUNTER: 
 
+##UP COUNTER:
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+![UP TIME](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/6c4ddf29-ef64-4dd4-849b-085513c2e0b0)
 
+##DOWN COUNTER:
 
+![THE REAL DOWN TIME](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/57f8549d-7854-4fd8-8b3c-ab9cc0d3e677)
 
+##TRUTH TABLE:
 
+##UP COUNTER:
 
+![UP TT TABLE](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/314ad90a-a298-4742-bf09-db2fab466ce9)
 
+##DOWN COUNTER:
 
+![DOWN TT](https://github.com/Ashwinakn/Exp-7-Synchornous-counters-/assets/152128332/3a4ce62a-3c43-437f-8a39-3306aa76f59c)
 
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+## RESULTS:
+Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
